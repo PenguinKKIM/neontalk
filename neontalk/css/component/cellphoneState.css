@@ -1,0 +1,16 @@
+#cellphone-state{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: .5rem 1rem;
+
+    position: sticky;
+    top: 0;
+
+    color: var(--deepSea);
+    
+    border-radius: 10px 10px 0 0;
+    background: var(--mainGrdientR);
+    z-index: 1;
+}

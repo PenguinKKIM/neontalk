@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+
+@import "reset.css";
+@import "vars.css";
+
+
+
+
+/**컴포넌트*/
+/**핸드폰 상태창*/
+@import "component/cellphoneState.css";
+
+/**하단네비게이션*/
+@import "component/appnav.css";
+
+/**모든 페이지 타이틀 네비*/
+@import "component/allScreenTitle.css";
+
+/**유저정보*/
+@import "component/user.css";
+
+
+/** 스크린 */
+/** 로그인 페이지 */
+@import "screen/login.css";
+
+/**친구목록 페이지*/
+@import "screen/friends.css";
+
+/**채팅창 페이지*/
+@import "screen/chat.css";
+
+/**더보기 페이지*/
+@import "screen/more.css";
+
+/**뷰 페이지*/
+@import "screen/view.css";
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vw;
+    background-color: #0d111c;
+    position: relative;
+    color: var(--lightSea);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/**미디어 쿼리 관련*/
+#no-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: var(--deepSea);
+    width: 100vw;
+    font-size: 4rem;
+    top: 0;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+@media screen and (max-width: 645px) {
+#no-mobile {
+  display: none;
+}
+}

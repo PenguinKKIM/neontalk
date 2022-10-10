@@ -1,0 +1,65 @@
+#all-screen__title,.app-add{
+    display: flex;
+    align-items: center;
+}
+
+#all-screen__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    position: sticky;
+    top: 1px;
+    color: var(--sendColor);
+}
+
+/**Friends page 타이틀 네비*/
+
+.screen-title__friends{
+    font-size: 1.8rem;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.screen-title__friends-icon>i{
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+
+/**모튼 스크린 광고*/
+
+.app-add{
+    justify-content: center;
+    width: auto;
+    height: 5rem;
+    background-color: rgba(101, 101, 205, 0.408);
+    border-radius: 20px;
+    border: 2px solid plum;
+    margin: 1rem;    
+}
+
+.app-add>img{
+    border-radius: 20px;
+}
+
+.app-add_text{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Black Han Sans', sans-serif;
+    background-image: var(--mainGrdientR);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fa-cog{
+    position: relative;
+}
+
+.uppre-alert{
+    width: .5rem;
+    height: .5rem;
+    right: .5rem;
+    top: .3rem;
+    background-color: var(--lightSea);
+}

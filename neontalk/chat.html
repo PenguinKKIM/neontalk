@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>chat</title>
+</head>
+<body id="login-page">
+    <!--공통 헤더(핸드폰 상태)-->
+    <header id="cellphone-state">
+        <span class="cellphone-state_time">11:11🐧</span>
+        <div></div>
+        <div class="cellphone-state_right">
+            <i class="fab fa-bluetooth"></i>
+            <i class="far fa-alarm-clock"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </header>
+
+    <main id="chat-screen">
+        <!--모든 스크린 타이틀 네비-->
+        <nav id="all-screen__title">
+            <div class="screen-title__friends">
+                채팅            
+            </div>
+            <div class="screen-title__friends-icon">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-cog hover-icon"></i>
+                <span class="alert uppre-alert"></span>
+            </div>
+        </nav>
+        <!--채팅 목록-->
+        <div class="user-component">
+            <div class="user-profile">
+                <img src="imgs/me2.png">
+                <div class="user-profile__info">
+                    <a href="chatscreen.html">
+                    <span class="user-profile__name">김펭긴</span>
+                    </a>
+                    <span class="user-profile__text">이번에는 자스,벡엔드 정복할래요</span>
+                </div>               
+            </div>
+            <div class="user-state">
+                <span class="chat-time">오후 11:11</span>                  
+            </div>
+        </div>
+
+        <!--채팅 목록-->
+        <div class="user-component small-user-component">
+            <div class="user-profile ">
+                <img src="imgs/me.png">
+                <a href="chatscreen.html">
+                <div class="user-profile__info">
+                    <a href="chatscreen.html">
+                    <span class="user-profile__name">김희준</span>
+                    </a>
+                    <span class="user-profile__text">다들 화이팅 입니다!!</span>
+                    
+                </div>
+                              
+            </div>
+            <div class="user-state">
+                <span class="chat-time">오후 10:11</span>                  
+             </div>
+        </div>
+
+        <!--채팅 목록-->
+        <div class="user-component small-user-component">
+            <div class="user-profile ">
+                <img src="imgs/nomad.png">
+                <div class="user-profile__info">
+                    <a href="chatscreen.html">
+                        <span class="user-profile__name">노마드코더</span>
+                        </a>
+                    <span class="user-profile__text">코딩 너무 재밌어요</span>
+                </div>               
+            </div>
+            <div class="user-state">
+                <span class="chat-time">오후 10:11</span>                  
+             </div>
+        </div>
+        
+        <!--채팅 목록-->
+        <div class="user-component small-user-component">
+            <div class="user-profile ">
+                <img src="imgs/steam.png">
+                <div class="user-profile__info">
+                    <a href="chatscreen.html">
+                        <span class="user-profile__name">Arrow-root tea</span>
+                        </a>
+                    <span class="user-profile__text">건강도 챙기세요</span>
+                </div>               
+            </div>
+            <div class="user-state">
+                <span class="chat-time">오후 10:11</span>                  
+             </div>
+        </div>
+
+    </main>
+
+
+
+
+
+    <!--미디어 쿼리-->
+    <div id="no-mobile">
+        <span>화면을 줄여주세요!</span>
+    </div>
+
+    <!--하단 공통네비-->
+    <nav id="app-nav">
+
+        <ul class="app-nav__ul">
+    
+            <li class="app-nav__btn">
+                <a href="friends.html" class="app-nav__link"><i class="fas fa-star"></i>
+                </a>
+            </li>
+            
+            <li class="app-nav__btn">            
+                <a href="chat.html" class="app-nav__link">
+                    <i class="far fa-comments"></i>
+                    <span class="alert chat-alert animate">10</span>
+                </a>
+            </li>
+
+            <li class="app-nav__btn">
+                <a href="view.html" class="app-nav__link"><i class="fas fa-search"></i>                
+                </a>
+            </li>
+            <li class="app-nav__btn">
+                <a href="more.html" class="app-nav__link"><i class="far fa-sun"></i>
+                    <span class="alert alert__sm"></span>
+                </a>
+            </li>
+    
+        </ul>
+    
+    </nav>
+
+
+
+    <!--폰트 어썸 스크립트-->
+    <script src="https://kit.fontawesome.com/ad2be14d60.js" crossorigin="anonymous"></script>
+</body>
+</html>

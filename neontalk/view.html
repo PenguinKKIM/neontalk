@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>View</title>
+</head>
+<body id="login-page">
+    <!--공통 헤더(핸드폰 상태)-->
+    <header id="cellphone-state">
+        <span class="cellphone-state_time">11:11🐧</span>
+        <div></div>
+        <div class="cellphone-state_right">
+            <i class="fab fa-bluetooth"></i>
+            <i class="far fa-alarm-clock"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </header>
+
+    <main id="friends-screen">
+        <!--모든 스크린 타이틀 네비-->
+        <nav id="all-screen__title">
+            <div class="screen-title__friends">
+                뷰           
+            </div>
+            <div class="screen-title__friends-icon">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-cog hover-icon"></i>
+                <span class="alert uppre-alert"></span>
+            </div>
+        </nav>
+
+
+                        <!--광고창 -->
+                        <a href="https://nomadcoders.co/">
+                            <div class="app-add">         
+                                <span class="app-add_text">
+                                노마드 코더 바로가기
+                                </span>
+                            </div>
+                        </a>  
+        
+
+        <!--뷰아이콘-->
+        <section class="view-screen__component">
+        <div class="view-screen__icons">
+            <div class="view-screen__icons__icon"><i class="fas fa-qrcode fa-2x"></i><span>QR 코드</span></div>
+            <div class="view-screen__icons__icon"><i class="fas fa-address-book fa-2x"></i><span>주소록으로 추가</span></div>
+            <div class="view-screen__icons__icon"><i class="fas fa-id-card fa-2x"></i><span>아이디로 추가</span></div>
+            <div class="view-screen__icons__icon"><i class="fas fa-envelope fa-2x"></i><span>초대</span></div>
+        </div>
+        </section>
+
+
+        <div class="recommedd-study">
+            
+        <h1 class="recommedd-study_title">추천강의</h1>  
+
+        <section class="add-user-section">
+
+            <div class="add-user-component">
+                <img src="imgs/html.png" alt="">
+                <div class="add-user_text">HTML5</div>
+                <div class="add-user_ask">강의듣기</div>
+            </div>
+
+            <div class="add-user-component">
+                <img src="imgs/css.png" alt="">
+                <div class="add-user_text">CSS3</div>
+                <div class="add-user_ask">강의듣기</div>
+            </div>
+
+            <div class="add-user-component">
+                <img src="imgs/js.png" alt="JavaScript">
+                <div class="add-user_text">Javascript</div>
+                <div class="add-user_ask">강의듣기</div>
+            </div>
+
+            <div class="add-user-component">
+                <img src="imgs/node.png" alt="">
+                <div class="add-user_text">NodeJS</div>
+                <div class="add-user_ask">강의듣기</div>
+            </div>
+
+        </section>
+        </div>
+    
+     
+        <!--오픈채팅-->
+   
+        <section class="view-screen__open-chat">
+
+
+        <div class="open-chat_title">오픈챗</div>
+        <div class="open-chat_home">오픈 챗 홈으로  
+             <i class="fas fa-angle-right fa-xs"></i>
+        </div>
+             
+
+        <div class="open-chat__room">
+    
+            <div class="open-chat__title" >
+
+                <h5 class="open-chat__room__title">
+                    #코딩 같이할사람!
+                </h5>
+    
+                <h6 class="open-chat__tag">
+                    #10주 #노마드코더 #서로서로힘내요
+                </h6>
+                <div class="open-chat__info">
+                    <img src="imgs/me.png"/>
+                    <div class="open-chat__member">
+                        206 멤버
+                    </div>
+                    <div class="divider"></div>
+                    <span>활성화</span>
+            
+                </div>
+    
+            </div>
+    
+            <div class="open-chat__photo__heart">
+                <div class="open-chat__photo">
+                    <img src="imgs/nomad.png" class="open-chat__profile"/>
+                    <div class="open-chat__like">
+                        <i class="fas fa-heart"></i><span>206</span>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        </section>  
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <nav id="app-nav">
+
+        <ul class="app-nav__ul">
+    
+            <li class="app-nav__btn">
+                <a href="friends.html" class="app-nav__link"><i class="fas fa-star"></i>
+                </a>
+            </li>
+            
+            <li class="app-nav__btn">            
+                <a href="chat.html" class="app-nav__link">
+                    <i class="far fa-comments"></i>
+                    <span class="alert chat-alert animate">10</span>
+                </a>
+            </li>
+
+            <li class="app-nav__btn">
+                <a href="view.html" class="app-nav__link"><i class="fas fa-search"></i>                
+                </a>
+            </li>
+            <li class="app-nav__btn">
+                <a href="more.html" class="app-nav__link"><i class="far fa-sun"></i>
+                    <span class="alert alert__sm"></span>
+                </a>
+            </li>
+    
+        </ul>
+    
+    </nav>
+
+            <!--미디어 쿼리-->
+            <div id="no-mobile">
+                <span>화면을 줄여주세요!</span>
+            </div>
+
+    <!--폰트 어썸 스크립트-->
+    <script src="https://kit.fontawesome.com/ad2be14d60.js" crossorigin="anonymous"></script>
+</body>
+</html>

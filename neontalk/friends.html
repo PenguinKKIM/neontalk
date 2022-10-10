@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Friends</title>
+</head>
+<body id="login-page">
+    <!--공통 헤더(핸드폰 상태)-->
+    <header id="cellphone-state">
+        <span class="cellphone-state_time">11:11🐧</span>
+        <div></div>
+        <div class="cellphone-state_right">
+            <i class="fab fa-bluetooth"></i>
+            <i class="far fa-alarm-clock"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </header>
+
+    <main id="friends-screen">
+        <!--모든 스크린 타이틀 네비-->
+        <nav id="all-screen__title">
+            <div class="screen-title__friends">
+                친구            
+            </div>
+            <div class="screen-title__friends-icon">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+            </div>
+        </nav>
+
+        <!--친구화면 광고창 -->
+        <a href="https://nomadcoders.co/">
+            <div class="app-add">
+               
+                           
+                <span class="app-add_text">
+                    노마드 코더 바로가기
+                </span>
+            </div>
+        </a>
+
+
+        <div class="user-component">
+            <div class="user-profile">
+                <img src="imgs/me2.png">
+                <div class="user-profile__info">
+                    <span class="user-profile__name">김펭긴</span>
+                    <span class="user-profile__text">너무 재밌당</span>
+                </div>               
+            </div>
+            <div class="user-state">
+                <span class="user-state__music">🎶 muse - madness </span>
+            </div>
+        </div>
+
+        <section class="add-user-section">
+
+            <div class="add-user-component">
+                <img src="imgs/html.png" alt="">
+                <div class="add-user_text">HTML5</div>
+                <div class="add-user_ask">강의듣기</div>
+            </div>
+
+            <div class="add-user-component">
+                <img src="imgs/css.png" alt="">
+                <div class="add-user_text">CSS3</div>
+                <div class="add-user_ask">강의듣기</div>
+            </div>
+
+            <div class="add-user-component">
+                <img src="imgs/js.png" alt="JavaScript">
+                <div class="add-user_text">Javascript</div>
+                <div class="add-user_ask">강의듣기</div>
+            </div>
+
+            <div class="add-user-component">
+                <img src="imgs/node.png" alt="">
+                <div class="add-user_text">NodeJS</div>
+                <div class="add-user_ask">강의듣기</div>
+            </div>
+
+        </section>
+        
+        <div class="user-component small-user-component">
+            <div class="user-profile ">
+                <img src="imgs/me.png" class="img-small">
+                <div class="user-profile__info">
+                    <span class="user-profile__name small-user_name ">김희준</span>
+                    <span class="user-profile__text small-user_text">열심히 공부할게요...</span>
+                </div>               
+            </div>
+            <div class="user-state">
+                <span class="user-state__music">🎶 IVE - AfterLike </span>
+            </div>
+        </div>
+
+        <div class="user-component small-user-component">
+            <div class="user-profile">
+                <img src="imgs/steam.png" class="img-small">
+                <div class="user-profile__info">
+                    <span class="user-profile__name small-user_name">Arrow-root tea</span>
+                    <span class="user-profile__text small-user_text">This is steam ID</span>
+                </div>               
+            </div>
+            <div class="user-state">
+                <span class="user-state__music">🎶 Sia - Alive </span>
+            </div>
+        </div>
+
+    </main>
+
+    <!--하단 공통 네비-->
+    <nav id="app-nav">
+
+        <ul class="app-nav__ul">
+    
+            <li class="app-nav__btn">
+                <a href="friends.html" class="app-nav__link"><i class="fas fa-star"></i>
+                </a>
+            </li>
+            
+            <li class="app-nav__btn">            
+                <a href="chat.html" class="app-nav__link">
+                    <i class="far fa-comments"></i>
+                    <span class="alert chat-alert animate">10</span>
+                </a>
+            </li>
+
+            <li class="app-nav__btn">
+                <a href="view.html" class="app-nav__link"><i class="fas fa-search"></i>                
+                </a>
+            </li>
+            <li class="app-nav__btn">
+                <a href="more.html" class="app-nav__link"><i class="far fa-sun"></i>
+                    <span class="alert alert__sm"></span>
+                </a>
+            </li>
+    
+        </ul>
+    
+    </nav>
+
+
+        <!--미디어 쿼리-->
+        <div id="no-mobile">
+            <span>화면을 줄여주세요!</span>
+        </div>
+        <!--들어올때 플래시-->
+        <div id="splash">
+            네온톡!
+        </div>
+
+    <!--폰트 어썸 스크립트-->
+    <script src="https://kit.fontawesome.com/ad2be14d60.js" crossorigin="anonymous"></script>
+</body>
+</html>

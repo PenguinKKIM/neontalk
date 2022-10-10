@@ -1,0 +1,58 @@
+/**하단 공통 네비*/
+#app-nav{
+    position: fixed;
+    bottom: 0%;
+    padding: 1.5rem 0;
+    width: 100%;
+    border-top: var(--borderTop);
+    border-radius: 10px 10px 0 0; 
+    box-sizing: border-box; 
+    background-color: #0d111c;
+}
+
+.app-nav__ul{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.app-nav__link>i{
+    font-size: 1.5rem;
+}
+
+.app-nav__link{
+    position: relative;
+}
+
+/**알림창 원*/
+.alert{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sendColor);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+.chat-alert{
+    color: black;
+    bottom: .9rem;
+    left: 1rem;
+    color: var(--deepSea);
+    font-weight: 900;
+}
+
+.alert__sm{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    bottom: 1.5rem;
+    left: 1.5rem;
+}
+
+.animate{
+    animation: under-nav_alert ease-in-out 2s infinite;
+}

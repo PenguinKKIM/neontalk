@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>More</title>
+</head>
+<body id="login-page">
+    <!--공통 헤더(핸드폰 상태)-->
+    <header id="cellphone-state">
+        <span class="cellphone-state_time">11:11🐧</span>
+        <div></div>
+        <div class="cellphone-state_right">
+            <i class="fab fa-bluetooth"></i>
+            <i class="far fa-alarm-clock"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </header>
+
+    <main id="more-screen">
+        <!--모든 스크린 타이틀 네비-->
+        <nav id="all-screen__title">
+            <div class="screen-title__friends">
+                더보기            
+            </div>
+            <div class="screen-title__friends-icon">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-cog hover-icon"></i>
+                <span class="alert uppre-alert"></span>
+            </div>
+        </nav>
+        
+
+        <!--더보기 화면 유저 프로필-->
+        <section class="user-component">
+            <div class="user-profile">
+                <img src="imgs/me2.png">
+                <div class="user-profile__info">
+                    <span class="user-profile__name">김펭긴</span>
+                    <span class="user-profile__text">너무 재밌당</span>
+                </div>               
+            </div>
+            <div class="user-state">
+            <span class="user-state__music">010 1234 5678</span>
+            </div>
+        </section>
+
+        <!--광고창 -->
+        <a href="https://nomadcoders.co/">
+            <div class="app-add">         
+                <span class="app-add_text">
+                노마드 코더 바로가기
+                </span>
+            </div>
+        </a>        
+
+        <!--더보기아이콘-->
+        <section class="more-screen__component">
+            <div class="more-screen__icons">
+                <div class="more-screen__icons__icon"><i class="fas fa-calendar-check fa-2x"></i><span>달력</span></div>
+                <div class="more-screen__icons__icon"><i class="fas fa-tablet-alt fa-2x"></i><span>서랍</span></div>
+                <div class="more-screen__icons__icon"><i class="fas fa-grin-alt fa-2x"></i><span>이모티콘</span></div>
+                <div class="more-screen__icons__icon"><i class="fas fa-palette fa-2x"></i><span>테마</span></div>
+                <div class="more-screen__icons__icon"><i class="fas fa-lock fa-2x"></i><span>계정</span></div>
+                <div class="more-screen__icons__icon"><i class="fas fa-comments fa-2x"></i><span>오픈챗</span></div>
+            </div>
+        </section>
+
+        </main>
+
+
+
+
+
+
+        <!--미디어 쿼리-->
+        <div id="no-mobile">
+            <span>화면을 줄여주세요!</span>
+        </div>
+
+    <nav id="app-nav">
+
+        <ul class="app-nav__ul">
+    
+            <li class="app-nav__btn">
+                <a href="friends.html" class="app-nav__link"><i class="fas fa-star"></i>
+                </a>
+            </li>
+            
+            <li class="app-nav__btn">            
+                <a href="chat.html" class="app-nav__link">
+                    <i class="far fa-comments"></i>
+                    <span class="alert chat-alert animate">10</span>
+                </a>
+            </li>
+
+            <li class="app-nav__btn">
+                <a href="view.html" class="app-nav__link"><i class="fas fa-search"></i>                
+                </a>
+            </li>
+            <li class="app-nav__btn">
+                <a href="more.html" class="app-nav__link"><i class="far fa-sun"></i>
+                    <span class="alert alert__sm"></span>
+                </a>
+            </li>
+    
+        </ul>
+    
+    </nav>
+
+
+    <!--폰트 어썸 스크립트-->
+    <script src="https://kit.fontawesome.com/ad2be14d60.js" crossorigin="anonymous"></script>
+</body>
+</html>

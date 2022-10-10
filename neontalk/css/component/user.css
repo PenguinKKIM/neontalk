@@ -1,0 +1,67 @@
+.user-component{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    
+    border-top: var(--borderTop);
+    cursor: pointer;
+}
+
+.small-user-component{
+    margin-top: .1rem;
+    border: none;
+}
+
+.user-state__music{
+    background-color: rgba(101, 101, 205, 0.408);
+    border: 1px solid var(--lightSea);
+    border-radius: 20px;
+    padding: .2rem 1rem;
+    margin-top: 1rem;    
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile__info{
+    display: flex;
+    flex-direction: column;
+    padding: .2rem 1rem;
+    margin-top: .5rem;
+}
+
+.user-profile__name,.user-profile__text{
+    margin-top: .5rem;
+}
+
+.user-profile__name{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--sendColor);
+}
+
+.small-user_name{
+    font-size: 1rem;
+}
+
+.small-user_text{
+    font-size: .9rem;
+}
+
+.user-profile>img{
+    margin-top: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 20px;
+    background-color: rgba(230, 230, 250, 0);
+}
+
+.user-profile>.img-small{
+    width: 3rem;
+    height: auto;
+}
